@@ -1,3 +1,4 @@
+/* Landing Page */
 .box {
     position: absolute;
     background-color: teal;
@@ -86,8 +87,17 @@ body {
     height: 30px;
     width: 100%;
     bottom: -10px;
-    border: 5px;
+    border-top: 5px;
     border-style: solid;
-    border-width: 5px;
     border-color: cyan;
+}
+
+/* Comparisons Page */
+.box7 {
+    position: absolute;
+    background-color: white;
+    height: 650px;
+    width: 1350px;
+    left: 100px;
+    top: 50px; 
 }
