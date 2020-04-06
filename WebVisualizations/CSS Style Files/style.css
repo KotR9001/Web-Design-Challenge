@@ -53,6 +53,7 @@ body {
     height: 500px;
     width: 900px;
     left: 50px;
+    top: 100px;
 }
 
 .box5 {
@@ -61,6 +62,7 @@ body {
     height: 450px;
     width: 500px;
     right: 50px;
+    top: 100px;
 }
 
 /*Found Code for Horizontal Line at https://stackoverflow.com/questions/14821087/horizontal-line-and-right-way-to-code-it-in-html-css*/
@@ -78,7 +80,7 @@ body {
 
 .font3 {
     color: gray;
-    font-size: 20px
+    font-size: 18px
 }
 
 .box6 {
@@ -92,12 +94,45 @@ body {
     border-color: cyan;
 }
 
-/* Comparisons Page */
+/* Visualization Pages */
 .box7 {
     position: absolute;
     background-color: white;
-    height: 650px;
-    width: 1350px;
+    height: 550px;
+    width: 1300px;
     left: 100px;
-    top: 50px; 
+    top: 100px; 
 }
+
+/* Comparisons Page */
+.box8 {
+    position: absolute;
+    background-color: white;
+    height: auto;
+    width: 1300px;
+    left: 100px;
+    top: 100px; 
+}
+
+/* Data Page */
+.box9 {
+    position: absolute;
+    background-color: white;
+    height: auto;
+    width: 1300px;
+    left: 100px;
+    top: 100px;
+}
+
+/* .container-fluid div {
+    float: left;
+    margin: 10px;
+} */
+
+/* Media Function */
+/*@media (max-width: 1500px) {
+.container-fluid {
+    max-width: 1500px;
+    margin: 0 auto;
+    }
+}*/
