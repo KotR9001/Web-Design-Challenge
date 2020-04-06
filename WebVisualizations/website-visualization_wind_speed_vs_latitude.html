@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>Bootstrap Visualization of Wind Speed vs Latitude</title>
+    <link rel="stylesheet" href="Bootstrap Files/bootstrap.css">
+    <link rel="stylesheet" href="CSS Style Files/style.css">
+</head>
+<body style="background-color: lightgray;">
+    <!--Summary Section-->
+    <div class="box7">
+        <b><h1 style="color: teal; font: 40px serif; margin-right: 50px; margin-bottom: 25px; margin-left: 50px;">
+            Summary: Wind Speed vs. Humidity
+        </h1></b>
+        <div style="color: gray;">
+            <div class="hline" style="margin-right: 50px; margin-bottom: 25px; margin-left: 50px;"></div>
+            <!--Found code to wrap text at https://allwebco-templates.com/support/S_textwrap.htm-->
+            <img src="Pictures/Wind Speed vs Latitude.png" alt="Wind Speed vs Latitude" style="float: left; margin-left: 50px; margin-right: 50px;" height=400px width=400px>
+            <p class="font3" style="margin-left: 50px; margin-right: 50px;">The purpose of this project was to analyze how weather changes as you 
+                get closer to the equator. To accomplish this analysis, we first pulled data from the 
+                OpenWeatherMap API to assemble a dataset on over 500 cities.
+                <br>
+                <br>
+                The forth relationship investigated was that between wind speed and latitude. 
+                It was assumed that there was no relationship between wind speed and latitude.
+                This assumption proved to be true. 
+                <br>
+                <br>
+                Moreover, the correlation was tested for each hemisphere separately, to see if the initial
+                assumption would hold up when only looking at a hemisphere individually. The data shows that
+                the assumption is also true here as well, with the linear regression equations possessing
+                R^2 values of 0.02 for the Northern Hemisphere and 0.05 for the Southern Hemisphere. This is likely
+                due to the fact that winds are constantly migrating, which would mean that one shouldn't expect that
+                latitude would have a consistent effect on wind speed.
+            </p>
+        </div>
+    </div>
+    <!--Footer Section-->
+    <section>
+        <h6 class="box6 font" align="center">(c) Copyright Coding Bootcamp 2017</h6>
+    </section>
+</body>
