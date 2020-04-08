@@ -22,7 +22,7 @@
     background-color: white;
     height: 100%;
     width: auto;
-    right: 100px;
+    right: 70px;
     top: -5px
 }
 
@@ -135,7 +135,16 @@ body {
     left: 100px;
     top: 100px;
 }
+ 
+/* .dropdown { 
+    position:static !important; 
+} 
 
+.dropdown-menu { 
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
+    margin-top:0px !important; 
+    width:100% !important;
+} */
 /* .container-fluid div {
     float: left;
     margin: 10px;
@@ -147,4 +156,4 @@ body {
     max-width: 1500px;
     margin: 0 auto;
     }
-}*/
+} */
