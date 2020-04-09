@@ -1,63 +1,36 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Bootstrap Visualization of Temperature vs Latitude</title>
-    <link rel="stylesheet" href="Bootstrap Files/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS Style Files/style.css">
+    <link rel="stylesheet" href="Bootstrap Files/_bootswatch.scss">
+    <link rel="stylesheet" href="Bootstrap Files/_variables.scss">
 </head>
 <body style="background-color: lightgray;">
     <!--NavBar Section-->
     <!--Code found on https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp-->
     <!--and https://getbootstrap.com/docs/4.0/components/navbar/-->
-    <!--Credit to Travis Tharpe for some of the code layout as well-->
-    <nav class="navbar navbar-expand-md bg-light navbar-light" style="background-color: white;">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <!--Create a Button-->
-                <button class="navbar-toggle collapsed" 
-                        type="button" data-toggle="collapse" 
-                        data-target="#bs-example-navbar-collapse-1" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation" 
-                        style="outline-color:#fff"> 
-                    <span class="navbar-toggler-icon"></span> 
-                </button>
-                    <a class="box font nav-link" align="center" href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/index.html">Latitude</a> 
+    <!--Credit to Travis Tharpe & Randall for some of the code layout as well-->
+    <!--Explanation for Linker() function found at https://www.computerhope.com/jargon/l/linker.htm-->
+    <!--Explanation for JavaScript functions found at https://www.w3schools.com/jsref/prop_element_classlist.asp-->
+    <ul>
+        <li><a href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-landing_page.html">Latitude</a></li>
+        <li><div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plot
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-visualization_temperature_vs_latitude.html">Temperature vs Latitude</a>
+              <a class="dropdown-item" href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-visualization_humidity_vs_temperature.html">Humidity vs Latitude</a>
+              <a class="dropdown-item" href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-visualization_cloudiness_vs_latitude.html">Cloudiness vs Latitude</a>
+              <a class="dropdown-item" href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-visualization_wind_speed_vs_latitude.html">Wind Speed vs Latitude</a>
             </div>
-            <!--NavBar Links-->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="box1 dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="navbarDropdown" 
-                            role="button" aria-haspopup="true" 
-                            aria-expanded="false">Plot
-                            <!--Create an Arrow Icon-->
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-temperature_vs_latitude.html">
-                                Temperature vs Latitude
-                            </a></li>
-                            <li><a href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-humidity_vs_latitude.html">
-                                Humidity vs Latitude
-                            </a></li>
-                            <li><a href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-cloudiness_vs_latitude.html">
-                                Cloudiness vs Latitude
-                            </a></li>
-                            <li><a href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-wind_speed_vs_latitude.html">
-                                Wind Speed vs Latitude
-                            </a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="box2 font1" href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-comparisons_page.html">Comparison</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="box3 font1" href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/Weather_Output.html">Data</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+          </div></li>
+        <li><a href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/website-comparisons_page.html">Comparison</a></li>
+        <li><a href="https://kotr9001.github.io/Web-Design-Challenge/WebVisualizations/Weather_Output.html">Data</a></li>
+      </ul>
     <!--Summary Section-->
     <div class="box7">
         <b><h1 style="color: teal; font: 40px serif; margin-right: 50px; margin-bottom: 25px; margin-left: 50px;">
@@ -98,4 +71,8 @@
     <section>
         <h6 class="box6 font4" align="center">(c) Copyright Coding Bootcamp 2017</h6>
     </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+</html>
