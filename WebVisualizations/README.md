@@ -23,12 +23,12 @@ Latitude vs Humidity<br />
 ![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/6c6049cc-e3b1-449a-8856-65d0e4248384)<br />
 <br />
 Latitude vs Cloudiness<br />
-![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/8e7510e9-5895-4a63-b4c5-259d7320c3ed)<br />
+![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/4b57e204-760b-456c-9b38-453cdd5ca267)<br />
 ![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/c95c5631-aab5-44e5-b634-6104b6a32841)<br />
 ![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/02329826-d0c4-4373-914a-a6edfdfa9c45)<br />
 <br />
 Latitude vs Wind Speed<br />
-![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/e88eccfb-5c93-41bf-a0f8-4940bd5d7800)<br />
+![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/6ae5170f-9804-46c4-a728-c921021f89b1)<br />
 ![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/e59c41fd-90c8-45d3-9009-29ce84652715)<br />
 ![image](https://github.com/KotR9001/Web-Design-Challenge/assets/57807780/d4f20579-02ab-4bb0-9c4c-569bd8f24651)<br />
 <br />
